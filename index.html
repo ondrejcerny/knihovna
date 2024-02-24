@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Přihlášení</title>
+    <link rel="stylesheet" href="login.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Login</h1>
+      <form method="post" action="http://localhost/projekt_knihovna/login.php">
+        <label for="usernameemail">Uživatelské Jméno nebo Email:</label>
+        <input type="text" id="usernameemail" name="usernameemail" placeholder="Your Username Or Email..">
+      
+        <label for="password">Heslo:</label>
+        <input type="password" id="password" name="password" placeholder="Your Password..">
+      
+        <input name="submit" type="submit" value="Submit">
+
+      </form>
+      <a href="registration.php">Registrace<a>
+    </div>
+      
+  </body>
+</html>
+div {
+  position: absolute;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 70%;
+  top: 50%
+}
