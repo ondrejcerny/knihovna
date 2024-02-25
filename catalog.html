@@ -6,13 +6,41 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="knihovna_css.css"/>
+    <link rel="stylesheet" href="catalog.css"/>
 </head>
 <body>
+
     <div class="topnavigator">
-        <a href="obrazovky.html">Home</a>
+        <a href="home.html">Home</a>
         <a href="users.html">Users</a>
         <a href="/" class="here">Catalog</a>
+        <button onclick="window.location.href = 'logout.php';"
+    style="width: auto;">Logout</button>
     </div>
+    <div id="divInsert">
+        <form class="insertFormB" action="catalog.php" method="post">
+            
+                <label for="nazev">Name:</label>
+                <input id="id1" type="text" class="form-control" id="nazev" name="nazev">
+            
+        
+            
+                <label for="pocet">How many:</label>
+                <input id="id1" type="number" class="form-control" id="pocet" name="pocet">
+            
+        
+            
+                <label for="autor">Author:</label>
+                <input id="id1" type="number" class="form-control" id="autor" name="autor">
+            
+            
+            <input id="id4" type="submit" class="button button-primary">
+        </form>
+        </div>
+    
+    <script>
+    
+    </script>
 
     <h1>TODO: tabulka knih</h1>
 

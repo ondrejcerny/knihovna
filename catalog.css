@@ -1,0 +1,23 @@
+#id1 {
+    width: 100%;
+    background-color: rgb(211, 211, 211);
+    color: black;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#id4 {
+    background-color: green;
+    color: white;
+}
+
+#divInsertB {
+    width: 60%;
+    border-radius: 5px;
+    background: white;
+    padding: 10px;
+    position: sticky;
+}
