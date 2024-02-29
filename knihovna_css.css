@@ -27,3 +27,30 @@ background: lightblue;
 color: black;
 font-size: 30px;
 }
+
+#id1 {               /*input [type=text], input [type=password]*/
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid;
+box-sizing: border-box;
+} 
+
+button {
+background-color: black;
+color: white;
+padding: 10px 26px;
+border: none;
+cursor: pointer;
+width: 10%;
+text-align: center;
+}
+
+button:hover {
+opacity: 0.8;
+}                   
+
+
+
+

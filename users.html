@@ -5,15 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="knihovna_css.css"/>
+    <link rel="stylesheet" href="http://localhost/projekt_knihovna/knihovna_css.css"/>
+    <link rel="stylesheet" href="http://localhost/projekt_knihovna/users.css"/>
 </head>
 <body>
+
     <div class="topnavigator">
-        <a href="obrazovky.html">Home</a>
+        <a href="home.html">Home</a>
         <a class="here" href="/">Users</a>
         <a href="catalog.html">Catalog</a>
+        <button onclick="window.location.href = 'logout.php';"
+    style="width: auto;">Logout</button>
     </div>
 
-    <h1>TODO: formlulář insertování uživatelů</h1>
+
+
+
+    <!--Formular na insert uzivatelu-->
+
+<div id="divInsert">
+<form class="insertFormU" action="users.php" method="post">
+    
+        <label for="jmeno">First name:</label>
+        <input id="id2" type="text" class="form-control" id="jmeno" name="jmeno">
+    
+
+    
+        <label for="prijmeni">Last name:</label>
+        <input id="id2" type="text" class="form-control" id="prijmeni" name="prijmeni">
+    
+
+    
+        <label for="email">E-mail:</label>
+        <input id="id2" type="text" class="form-control" id="email" name="email">
+    
+    
+    
+        <label for="tel_cislo">Phone number:</label>
+        <input id="id2" type="number" class="form-control" id="tel_cislo" name="tel_cislo">
+    
+
+    
+        <label for="rodne_cislo">Personal identification number:</label>
+        <input id="id2" type="number" class="form-control" id="rodne_cislo" name="rodne_cislo">
+    
+
+    
+        <label for="adresa">Address:</label>
+        <input id="id2" type="text" class="form-control" id="adresa" name="adresa">
+    
+    <input id="id3" type="submit" class="button button-primary">
+</form>
+</div>
+
+
+    
+    <script>
+    
+    </script>
+
+  
 </body>
 </html>
