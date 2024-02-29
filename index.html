@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Přihlášení</title>
+    <!--<link rel="stylesheet" href="login.css"/>-->
+    <link rel="stylesheet" href="http://localhost/projekt_knihovna/bootstrap.min.css"/>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <div class="container mt-5 pt-5">
+      <div class="row">
+        <div class="col-12 col-sm-8 col-md-6 m-auto">
+          <div class="card bg-dark text-white" >
+            <div class="card-body">
+              <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-square" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z"/>
+              </svg>
+              <h1>Přihlášení</h1>
+              <form method="post" action="http://localhost/projekt_knihovna/login.php">
+                <label for="usernameemail">Uživatelské Jméno nebo Email:</label>
+                <input type="text" id="usernameemail" name="usernameemail" class="form-control my-3 py-2" placeholder="Napište Vaše Uživatelské Jméno nebo Email..">
+      
+                <label for="password">Heslo:</label>
+                <input type="password" id="password" name="password" class="form-control my-3 py-2" placeholder="Napište Vaše Heslo..">
+                <div class="text-center mt-3">
+                  <input name="submit" type="submit" value="Přihlásit" class="btn btn-success">
+                </div>
+
+                <div class="text-center mt-3">
+                  <a href="registration.php">Registrace<a></a>
+                </div>
+              </form>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+  </body>
+</html>
